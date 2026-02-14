@@ -1,0 +1,26 @@
+# IntelliJ IDEA / JetBrains files
+.idea/
+*.iml
+*.iws
+
+# Compiled Java class files
+*.class
+
+# Build output folders (Maven/Gradle — we may not use them yet, but good habit)
+target/
+build/
+out/
+
+# Local configuration / secrets (never commit these!)
+*.properties  (but we will make an exception later for demo)
+*.env
+application-local.yml
+application-dev.yml
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.log
+*.tmp
